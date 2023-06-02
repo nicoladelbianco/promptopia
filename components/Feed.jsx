@@ -14,8 +14,8 @@ const PromptCardList = ({ data, handleTagClick }) => {
                 />
             ))}
         </div>
-    )
-}
+    );
+};
 
 function Feed() {
     const [searchText, setSearchText] = useState("");
@@ -33,7 +33,7 @@ function Feed() {
         }
 
         fetchPosts();
-    }, [])
+    }, []);
 
     return (
         <section className="feed">
@@ -53,7 +53,7 @@ function Feed() {
                 handleTagClick={() => { }}
             />
         </section>
-    )
-}
+    );
+};
 
-export default Feed
+export default Feed;
