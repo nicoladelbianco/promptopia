@@ -42,6 +42,7 @@ const Nav = () => {
                             className='black_btn'>
                             Create Post
                         </Link>
+                        <button onClick={() => methodDoesNotExist()}>Break the world</button>
 
                         <button type='button' onClick={signOut} className='outline_btn'>
                             Sign Out
